@@ -11123,7 +11123,9 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
         padding: 3.125rem;
     }
 }
-
+img{
+    pointer-events: none !important;
+}
 /** @section Regula */
 
 .form-validation {
