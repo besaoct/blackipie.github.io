@@ -146,6 +146,15 @@ font-family: 'montserrat',sans-serif;
     padding-top: 6rem;
 
 }
+
+@media only screen and (max-width: 500px){
+  .xcontact{
+
+    padding-top: 10rem;
+
+}
+}
+
 .pt-100{
 padding-top: 100px;
 }
