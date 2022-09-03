@@ -1,0 +1,251 @@
+pre {
+	background-color: #36e2b700;
+	border-radius: 10px;
+	display: inline-block;
+    border:1px solid rgba(254, 254, 254, 0);
+}
+code {
+	padding: 20px;
+	background-color: #212224fb;
+	color: rgb(86, 255, 204) !important;
+	display: block;
+	border-radius: 3px;
+	box-shadow: 10px 10px 20px rgba(39, 39, 44, 0.477),
+    -10px -10px 20px rgba(46, 47, 53, 0.329), inset 5px 5px 5px rgb(30, 32, 31) ;
+	text-shadow: 5px 5px 5px rgb(28, 30, 33), -2px -2px 2px #212121;
+}
+
+
+/* new */
+.hackg{
+
+    font-family: 'Fira Mono', monospace;
+}
+.ghack{
+  color: #64ffda;
+}
+.gbhack{
+  border-color: #64ffda;
+}
+.c-grey{
+color:rgba(141, 143, 150, 0.445);
+font-weight: 600;
+}
+.fs-lr{
+     font-size: larger;
+}
+.fs-s{
+     font-size: small;
+}
+.fs-l{
+     font-size: large;
+}
+.fs-m{
+     font-size:medium;
+}
+/* cursur*/
+.blinking-cursor {
+  font-weight: 600;
+  color: #64ffda;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #64ffda;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #64ffda;
+  }
+}
+
+@-webkit-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color:#64ffda;
+  }
+}
+
+@-ms-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color:#64ffda;
+  }
+}
+
+@-o-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+
+
+/* ver */
+.icon-bar{
+text-align: left;
+
+}
+
+.iconshero {
+    padding: 8px;
+	font-size: large;
+    color: rgb(92, 88, 88);
+ 	box-shadow: 10px 10px 20px rgba(39, 39, 44, 0.169),
+    -10px -10px 20px rgba(46, 47, 53, 0.148), inset 5px 5px 5px rgb(30, 32, 31) ;
+	border-radius: 6px;
+}
+
+
+.daag::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    margin: 0px auto;
+    background-color: rgb(141, 144, 148);
+}
+.daag {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.monf{
+font-family: 'montserrat',sans-serif;
+}
+
+.xcontact{
+
+    max-width: 600px;
+    margin: 0px auto 100px;
+    text-align: center;
+
+}
+.pt-100{
+padding-top: 100px;
+}
+.pt-6{
+padding-top: 80px;
+}
+a.hlink{
+	color: rgba(131, 137, 137, 0.642);
+}
+a.hlink:hover{
+	color: #64ffda;
+}
+.lineh::after {
+    content: "";
+    display: block;
+    position: relative;
+    top: -12px;
+    width: 150px;
+    height: 2px;
+    margin-left: 12rem;
+    background-color: rgb(60, 71, 80);
+}
+
+img.green {
+  pointer-events: all !important;
+
+  -webkit-filter:grayscale(100%) brightness(60%) sepia(92%) hue-rotate(125deg) saturate(976%) contrast(1);
+  filter:grayscale(100%) brightness(60%) sepia(92%) hue-rotate(125deg) saturate(976%) contrast(1);
+}
+img:hover.green {
+  filter: grayscale(100%) brightness(42%) sepia(0%) hue-rotate(3deg) saturate(0%) contrast(1); 
+ -webkit-filter:grayscale(100%) brightness(42%) sepia(0%) hue-rotate(3deg) saturate(0%) contrast(1);
+
+}
+img:hover.yellow {
+  -webkit-filter:grayscale(100%) brightness(60%) sepia(92%) hue-rotate(125deg) saturate(976%) contrast(1);
+  filter:grayscale(100%) brightness(60%) sepia(92%) hue-rotate(125deg) saturate(976%) contrast(1);
+}
+.box-about{
+box-shadow:rgb(85 255 215 / 71%) 0px 0px 0px 2px inset, rgb(27 30 29) 20px -19px 0px 0px, rgb(85 255 215) 25px -23px 0px 0px;
+border-radius: 6px;
+margin-right: 4rem !important ;
+max-height: 272px;
+padding: 0;
+max-width: 343px;
+margin-left: 1.5rem;
+  transition:all 0.4s ease-in-out;
+
+}
+
+.box-about:hover{
+  transition:all 0.4s ease-in-out;
+ box-shadow:  rgb(85 255 215 / 71%) 0px 0px 0px 2px inset, rgb(27 30 29) 9px -9px 0px 0px, rgb(85 255 215) 12px -12px 0px 0px
+}
+/*selection */
+::-moz-selection { /* Code for Firefox */
+  color: rgb(85 255 215);
+  background: rgba(63, 66, 66, 0.187);
+}
+
+::selection {
+  color: rgb(218, 255, 246);
+  background: rgba(80, 82, 82, 0.372);
+}
+
+
+.daagp {
+    width: 20px;
+    position: fixed;
+    bottom: 3px;
+    left: auto;
+    /* right: 30px; */
+    z-index: 10;
+    letter-spacing: 0.182rem;
+    line-height: 3rem;
+  font-size: small;
+}
+
+.maildg {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    writing-mode: vertical-rl;
+    text-orientation:mixed;
+}
+.maildg::after {
+    content:"";
+    display:block;
+    width: 1px;
+    margin-top: 15px;
+    height: 90px;
+    background-color: rgba(212, 225, 224, 0.612);
+ 
+}
+
+@media only screen and (max-width: 600px) {
+  .maildg{
+    display: none ;
+  }
+  .maildg::after{
+   display: none;
+  }
+}
