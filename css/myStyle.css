@@ -205,7 +205,7 @@ box-shadow:rgb(85 255 215 / 71%) 0px 0px 0px 2px inset, rgb(27 30 29) 20px -19px
 border-radius: 6px;
 margin-right: 4rem !important ;
 max-height: 272px;
-padding: 0;
+padding: 3px;
 max-width: 343px;
 margin-left: 1.5rem;
   transition:all 0.4s ease-in-out;
@@ -264,5 +264,10 @@ margin-left: 1.5rem;
   }
   .maildg::after{
    display: none;
+  }
+  .box-about{
+    padding: 2px;
+ max-width: 252px;
+ margin: 4rem;
   }
 }
