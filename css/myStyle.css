@@ -188,10 +188,16 @@ img:hover.green {
  -webkit-filter:grayscale(100%) brightness(42%) sepia(0%) hue-rotate(3deg) saturate(0%) contrast(1);
 
 }
-img:hover.yellow {
-  -webkit-filter:grayscale(100%) brightness(60%) sepia(92%) hue-rotate(125deg) saturate(976%) contrast(1);
-  filter:grayscale(100%) brightness(60%) sepia(92%) hue-rotate(125deg) saturate(976%) contrast(1);
+img.white {
+  /* pointer-events:all !important; */
+  -webkit-filter:grayscale(100%) brightness(123%) sepia(92%) hue-rotate(0deg) saturate(100%) contrast(1);
+  filter:grayscale(100%) brightness(123%) sepia(92%) hue-rotate(0deg) saturate(100%) contrast(1);
 }
+img:hover.white {
+  -webkit-filter:grayscale(100%) brightness(123%) sepia(92%) hue-rotate(0deg) saturate(100%) contrast(0);
+  filter:grayscale(100%) brightness(123%) sepia(92%) hue-rotate(0deg) saturate(100%) contrast(0);
+}
+
 .box-about{
 box-shadow:rgb(85 255 215 / 71%) 0px 0px 0px 2px inset, rgb(27 30 29) 20px -19px 0px 0px, rgb(85 255 215) 25px -23px 0px 0px;
 border-radius: 6px;
