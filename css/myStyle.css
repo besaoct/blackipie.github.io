@@ -16,6 +16,14 @@ code {
 }
 
 
+.fh-font{
+  font-family: 'Freehand', cursive;
+}
+.sc-font{
+  font-family: 'Silkscreen', cursive;
+}
+
+
 /* new */
 .hackg{
 
