@@ -278,6 +278,8 @@ margin-left: 1.5rem;
  max-width: 252px;
  margin: 4rem;
   }
+
+
 }
 @media only screen and (max-height: 400px) {
   .maildg{
@@ -294,6 +296,8 @@ margin-left: 1.5rem;
   .maildg::after{
    display: none;
   }
+
+
 }
 
 
@@ -318,4 +322,72 @@ ul.skills-list li::before {
 
 .wgrey{
 color: #b8c4c2;
+}
+
+
+@-webkit-keyframes logo_kinetics {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes logo_kinetics {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.e-albania {
+  height: 80px;
+  position: relative;
+  width: 80px;
+}
+.e-albania svg:not(#orbit) {
+  -webkit-animation: logo_kinetics 2.5s linear infinite normal forwards;
+          animation: logo_kinetics 2.5s linear infinite normal forwards;
+  position: absolute;
+  top: -50%;
+  left: 0;
+  transform-origin: bottom center;
+}
+
+.logo-title {
+  font-family: 'Silkscreen', 'Courier New', Courier, monospace;
+  font-weight: normal;
+  color: rgb(126, 245, 199);
+  font-size: 22px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+
+h2.pl {
+  font-family: 'Silkscreen', 'Courier New', Courier, monospace;
+  color: #100f1000;
+  font-size: 2.5rem;
+  position: relative;
+  text-transform: uppercase;
+  -webkit-text-stroke: 0.3vw #f7f7fe;
+}
+
+h2.pl::before {
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  color: rgb(126, 245, 199);
+  overflow: hidden;
+  position: absolute;
+  content: attr(data-text);
+  border-right: 2px solid rgb(126, 245, 199);
+  -webkit-text-stroke: 0vw #f7f7fe;
+  animation: animate 6s linear infinite;
+}
+
+@keyframes animate {
+  0%, 10%, 100% {
+    width: 0;
+  }
+  70%, 90% {
+    width: 100%;
+  }
 }
