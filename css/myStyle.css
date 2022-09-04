@@ -366,7 +366,7 @@ h2.pl {
   font-size: 2.5rem;
   position: relative;
   text-transform: uppercase;
-  -webkit-text-stroke: 0.3vw #f7f7fe;
+  -webkit-text-stroke: 0.3vw #7dffeb;
 }
 
 h2.pl::before {
@@ -379,7 +379,7 @@ h2.pl::before {
   position: absolute;
   content: attr(data-text);
   border-right: 2px solid rgb(126, 245, 199);
-  -webkit-text-stroke: 0vw #f7f7fe;
+  -webkit-text-stroke: 0vw #fefeff;
   animation: animate 6s linear infinite;
 }
 
