@@ -391,3 +391,6 @@ h2.pl::before {
     width: 100%;
   }
 }
+.ls-1{
+word-spacing: -3px;
+}
