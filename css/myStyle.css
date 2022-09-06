@@ -192,11 +192,11 @@ a.hlink:hover{
     top: -13px;
     width: 100px;
     height: 2px;
-    margin-left: 16rem;
+    margin-left:8rem;
     background-color: rgb(60, 71, 80);
 }
 
-img.green {
+img.bw {
   pointer-events: all !important;
   filter: grayscale(100%) brightness(42%) sepia(0%) hue-rotate(3deg) saturate(0%) contrast(1); 
  -webkit-filter:grayscale(100%) brightness(42%) sepia(0%) hue-rotate(3deg) saturate(0%) contrast(1);
@@ -204,7 +204,7 @@ img.green {
   /* -webkit-filter:grayscale(100%) brightness(60%) sepia(92%) hue-rotate(125deg) saturate(976%) contrast(1);
   filter:grayscale(100%) brightness(60%) sepia(92%) hue-rotate(125deg) saturate(976%) contrast(1); */
 }
-img:hover.green {
+img:hover.bw {
   filter: grayscale(100%) brightness(42%) sepia(0%) hue-rotate(3deg) saturate(0%) contrast(1); 
  -webkit-filter:grayscale(100%) brightness(42%) sepia(0%) hue-rotate(3deg) saturate(0%) contrast(1);
 
@@ -404,3 +404,162 @@ h2.pl::before {
 .ls-1{
 word-spacing: -3px;
 }
+
+img.green{
+  pointer-events: all !important;
+ filter: grayscale(100%) brightness(35%) sepia(50%) hue-rotate(125deg) saturate(1000%) contrast(1);
+ -webkit-filter:grayscale(100%) brightness(35%) sepia(50%) hue-rotate(125deg) saturate(1000%) contrast(1);
+transition: all 0.4ms ease-in-out;
+}
+img:hover.green{
+  /* filter: grayscale(100%) brightness(42%) sepia(0%) hue-rotate(3deg) saturate(0%) contrast(1); 
+ -webkit-filter:grayscale(100%) brightness(42%) sepia(0%) hue-rotate(3deg) saturate(0%) contrast(1); */
+ filter: unset;
+ -webkit-filter:unset;
+transition: all 0.2s ease-in-out;
+
+}
+.project-content{
+  grid-column:7 / -1;
+  text-align: right;
+}
+.p-overline{
+     margin: 10px 0px;
+    font-size: medium;
+    font-weight: 400; 
+}
+@media (min-width: 768px){
+.project-title {
+    margin: 0px 0px 20px;
+}
+}
+
+.project-title {
+    font-size: large;
+}
+
+.project-description {
+    box-shadow: 0 10px 30px -15px rgb(20, 27, 24);
+    transition: all 0.3s ease;
+    position: relative;
+    z-index: 2;
+    padding: 25px;
+    border-radius: 5px;
+    margin-left: -6rem;
+    background-color: rgb(38, 40, 40);
+    color: rgb(227, 247, 245);
+    font-size: small;
+}
+.project-description-r {
+    box-shadow: 0 10px 30px -15px rgb(20, 27, 24);
+    transition: all 0.3s ease;
+    position: relative;
+    z-index: 2;
+    padding: 25px;
+    border-radius: 5px;
+    margin-left: -6rem;
+    background-color: rgb(38, 40, 40);
+    color: rgb(227, 247, 245);
+    font-size: small;
+}
+
+
+@media (max-width: 992px) {
+  .project-description {
+    margin-bottom: 0px;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.project-content{
+  text-align:left;
+  margin-top: 1rem;
+}
+.project-title {
+    font-size: large;
+}
+
+.p-img{
+display: none;
+}
+}
+
+@media (min-width: 992px) {
+
+.project-description {
+    box-shadow: 0 10px 30px -15px rgb(20 27 24);
+    transition: all 0.3s ease;
+    position: relative;
+    z-index: 2;
+    padding: 25px;
+    border-radius: 5px;
+    margin-left: -6rem;
+    background-color: rgb(38, 40, 40);
+    color: rgb(227, 247, 245);
+    font-size: small;
+    margin-bottom: unset;
+    margin-top: unset;
+    text-align: right;
+    margin-right: unset;
+}
+
+.project-content{
+  text-align:right;
+}
+.p-img{
+display: inline-block;
+margin-left: 2rem;
+}
+}
+
+@media (max-width: 992px) {
+  .project-description-r {
+    margin-bottom:0px;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.project-content-r{
+  text-align:left;
+  margin-top: 1rem;
+}
+.project-title-r {
+    font-size: large;
+}
+
+.p-img-r{
+display: none;
+}
+}
+
+
+
+
+@media (min-width: 992px) {
+
+.project-description-r {
+    box-shadow: 0 10px 30px -15px rgb(20 27 24);
+    transition: all 0.3s ease;
+    position: relative;
+    z-index: 2;
+    padding: 25px;
+    border-radius: 5px;
+    margin-left: 2rem;
+    background-color: rgb(38, 40, 40);
+    color: rgb(227, 247, 245);
+    font-size: small;
+    margin-bottom: unset;
+    margin-top: unset;
+    margin-right: -6rem;
+}
+
+.project-content-r{
+  margin-left: 2rem;
+  text-align:left;
+}
+.p-img-r{
+display: inline-block;
+margin-right: 2rem;
+}
+}
+
