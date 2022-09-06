@@ -185,6 +185,16 @@ a.hlink:hover{
     margin-left: 12rem;
     background-color: rgb(60, 71, 80);
 }
+.lineh2::after {
+    content: "";
+    display: block;
+    position: relative;
+    top: -13px;
+    width: 100px;
+    height: 2px;
+    margin-left: 16rem;
+    background-color: rgb(60, 71, 80);
+}
 
 img.green {
   pointer-events: all !important;
