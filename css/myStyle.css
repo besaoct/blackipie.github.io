@@ -192,7 +192,7 @@ a.hlink:hover{
     top: -13px;
     width: 100px;
     height: 2px;
-    margin-left:8rem;
+    margin-left:9rem;
     background-color: rgb(60, 71, 80);
 }
 
@@ -493,22 +493,24 @@ display: none;
     z-index: 2;
     padding: 25px;
     border-radius: 5px;
-    margin-left: -6rem;
+    margin-left: -8rem;
     background-color: rgb(38, 40, 40);
     color: rgb(227, 247, 245);
     font-size: small;
     margin-bottom: unset;
     margin-top: unset;
     text-align: right;
-    margin-right: unset;
+    margin-right: 2rem;
 }
 
 .project-content{
+    margin-right: 2rem;
   text-align:right;
 }
 .p-img{
 display: inline-block;
-margin-left: 2rem;
+margin-left: 10rem;
+max-width: 80%;
 }
 }
 
@@ -559,7 +561,8 @@ display: none;
 }
 .p-img-r{
 display: inline-block;
-margin-right: 2rem;
+margin-left: -2rem;
+width: 80%;
 }
 }
 
